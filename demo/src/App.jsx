@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h2> This is Main App</h2>
-      <PersonalInfo name={name} cnic={cnic} />
+      <PersonalInfo name={name} cnic={cnic} city=" Rwp" />
     </>
   );
 }
