@@ -2,7 +2,7 @@ const Card = (props) => {
   return (
     <>
       <div>
-        <h2>{props.tech}</h2>
+        <h5>{props.tech}</h5>
         <p>{props.techCode}</p>
       </div>
     </>

@@ -10,7 +10,7 @@ function App() {
   const roll = "E-1256";
   const dataList = [
     { tech: "Blockchain", techCode: "123" },
-    { tech: "MERN", techCode: "523" },
+
     { tech: "React Js", techCode: "323" },
     { tech: "Next Js", techCode: "444" },
   ];
