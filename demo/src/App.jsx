@@ -22,9 +22,11 @@ function App() {
       <h2> Education Component</h2>
       <Education userClass={cls} userRollNo={roll} />
       <h2> Cards:</h2>
-      {dataList.map((card) => (
-        <Card key={card.techCode} tech={card.tech} techCode={card.techCode} />
-      ))}
+      {dataList.map((card) => {
+        return (
+          <Card key={card.techCode} tech={card.tech} techCode={card.techCode} />
+        );
+      })}
     </>
   );
 }
