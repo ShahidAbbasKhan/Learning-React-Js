@@ -3,6 +3,7 @@ import { useState } from "react";
 import Education from "./Education";
 import PersonalInfo from "./Info";
 import Card from "./cards/Card";
+import ParentComponent from "./ParentComponent";
 
 function App() {
   const name = "Shahid";
@@ -40,7 +41,7 @@ function App() {
         <Card key={card.techCode} tech={card.tech} techCode={card.techCode} />
       ))} */}
 
-      <br />
+      <hr />
       <form onSubmit={handleStates}>
         <label>
           Tech :
@@ -65,6 +66,8 @@ function App() {
       {cards.map((card, index) => (
         <Card key={index} tech={card.tech} techCode={card.techCode} />
       ))}
+      <hr />
+      <ParentComponent />
     </>
   );
 }
