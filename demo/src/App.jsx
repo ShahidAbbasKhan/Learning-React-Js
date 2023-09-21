@@ -25,8 +25,8 @@ function App() {
     const newCard = { tech, techCode };
     setCards([...cards, newCard]);
     // Clear the input fields
-    setTech("");
-    setTechCode("");
+    // setTech("");
+    // setTechCode("");
   };
 
   return (
@@ -36,9 +36,10 @@ function App() {
       <h2> Education Component</h2>
       <Education userClass={cls} userRollNo={roll} />
       <h2> Cards:</h2>
-      {dataList.map((card) => (
+      {/* {dataList.map((card) => (
         <Card key={card.techCode} tech={card.tech} techCode={card.techCode} />
-      ))}
+      ))} */}
+
       <br />
       <form onSubmit={handleStates}>
         <label>
